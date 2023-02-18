@@ -84,8 +84,7 @@ VALUES ('abcde', 'efghi');
 
 
 
-![image](https://user-images.githubusercontent.com/72534486/219828263-151a6179-d15c-4c59-9f6f-50c0138fd0b3.png)
 
 
-![image](https://user-images.githubusercontent.com/72534486/219828364-fd2b4504-4433-429b-b09e-76c315bb2500.png)
+
 
