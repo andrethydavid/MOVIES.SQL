@@ -3,6 +3,33 @@
 * debes usara la base de datos que esta en el github movies
 * esta base de datos se realiza con lenguaje sql-posgres 
 
+Vamos a realizar la creacion de nuevas tablas generando nuevas funciones sql y plpsql
 
+```
+CREATE OR REPLACE PROCEDURE test_drpcreate_procedure()
+LANGUAGE SQL
+AS $$
+	DROP TABLE IF EXISTS aaa;
+	CREATE TABLE aaa (bbb char(5) CONSTRAINT firstkey PRIMARY KEY);
+$$;
+CALL test_drpcreate_procedure();
 
+```
 
+```
+CREATE OR REPLACE FUNCTION test_dropcreate_function()
+RETURNS VOID
+LANGUAGE plpgsql
+AS $$
+BEGIN
+	DROP TABLE IF EXISTS aaa;
+	CREATE TABLE aaa(bbb char(5) CONSTRAINT firstkey PRIMARY KEY, ccc char(5));
+	DROP TABLE IF EXISTS aaab;
+	CREATE TABLE aaab (bbba char(5) CONSTRAINT secondkey PRIMARY KEY,ccca char(5));
+END
+$$;
+SELECT test_dropcreate_function();
+
+```
+
+![image](https://user-images.githubusercontent.com/72534486/219827469-adaed4dd-561e-4a54-b8f3-0d6b606f468c.png)
