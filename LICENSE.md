@@ -81,7 +81,8 @@ CREATE TRIGGER aaa_changes
 INSERT INTO aaa(bbb, ccc)
 VALUES ('abcde', 'efghi');
 
-```
+
+
 
 ![image](https://user-images.githubusercontent.com/72534486/219828263-151a6179-d15c-4c59-9f6f-50c0138fd0b3.png)
 
