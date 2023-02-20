@@ -96,6 +96,17 @@ FROM peliculas;
 ![image](https://user-images.githubusercontent.com/72534486/219990646-3585ec87-d1b1-4573-add2-7561fb4a7db2.png)
 
 
+# PRECIO PROMECIO POR PELICULA SEGUN EL GENENERO 
+
+```
+SELECT clasificacion, AVG(precio_renta) AS precio_promedio
+FROM peliculas
+GROUP BY  clasificacion
+ORDER BY precio_promedio DESC;
+
+
+```
+![image](https://user-images.githubusercontent.com/72534486/219991114-9dcb2001-a9a0-4ad3-aaac-29e442f11154.png)
 
 
 
