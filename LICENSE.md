@@ -65,4 +65,20 @@ from peliculas
 ```
 ![image](https://user-images.githubusercontent.com/72534486/219989838-45144d53-6f9d-42b6-8d0d-fc72c8c8ebd5.png)
 
+```
+SELECT titulo, MAX (precio_renta)
+FROM peliculas 
+GROUP BY titulo;
+
+
+```
+
+![image](https://user-images.githubusercontent.com/72534486/219990110-d9b80bcb-c250-4747-9296-cbf472169e19.png)
+
+
+
+
+
+
+
 
