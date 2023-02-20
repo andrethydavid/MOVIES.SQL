@@ -56,3 +56,13 @@ SELECT count_total_movies();
 
 #  Agregación de datos
 
+
+```
+SELECT MAX (precio_renta)
+from peliculas
+
+
+```
+![image](https://user-images.githubusercontent.com/72534486/219989838-45144d53-6f9d-42b6-8d0d-fc72c8c8ebd5.png)
+
+
