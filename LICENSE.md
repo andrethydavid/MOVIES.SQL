@@ -108,6 +108,17 @@ ORDER BY precio_promedio DESC;
 ```
 ![image](https://user-images.githubusercontent.com/72534486/219991114-9dcb2001-a9a0-4ad3-aaac-29e442f11154.png)
 
+# duracion por regresar las peliculas por renta 
+
+```
+
+SELECT clasificacion, AVG(precio_renta) AS duracion_renta_promedio
+FROM peliculas
+GROUP BY  clasificacion
+ORDER BY duracion_renta_promedio DESC;
+
+```
+![image](https://user-images.githubusercontent.com/72534486/219991394-f9f305a4-afac-4214-a054-815ee1813746.png)
 
 
 
