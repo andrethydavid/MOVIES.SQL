@@ -75,6 +75,16 @@ GROUP BY titulo;
 
 ![image](https://user-images.githubusercontent.com/72534486/219990110-d9b80bcb-c250-4747-9296-cbf472169e19.png)
 
+# CLASIFIACAION DE LAS PELICULAS POR GENERO 
+
+```
+SELECT clasificacion, COUNT(*)
+FROM peliculas 
+GROUP BY clasificacion;
+
+```
+![image](https://user-images.githubusercontent.com/72534486/219990455-8f7bb0bb-7eac-4f75-93f8-2cd00c102785.png)
+
 
 
 
