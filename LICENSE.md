@@ -53,38 +53,4 @@ SELECT count_total_movies();
 
 ![image](https://user-images.githubusercontent.com/72534486/219827928-c09eac73-9a3d-47a8-9330-005c8c157722.png)
 
->al haber un insert en un tabla duplica ese registro en otra tabla
-
-``````
-
-CREATE OR REPLACE FUNCTION duplicate_records()
-RETURNS trigger
-LANGUAGE plpgsql
-AS $$
-BEGIN
-  -- NEW es el registro que se acaba de hacer insert
-  INSERT INTO aaab(bbba, ccca)
-  VALUES (NEW.bbb, NEW.ccc);
-  
-  RETURN NEW;
-END
-$$;
-
--- creando el trigger
-CREATE TRIGGER aaa_changes
-  BEFORE INSERT
-  ON aaa
-  FOR EACH ROW
-  EXECUTE PROCEDURE duplicate_records();
-
--- insertando valores para probar el trigger
-INSERT INTO aaa(bbb, ccc)
-VALUES ('abcde', 'efghi');
-
-
-
-
-
-
-
 
