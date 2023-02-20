@@ -54,3 +54,5 @@ SELECT count_total_movies();
 ![image](https://user-images.githubusercontent.com/72534486/219827928-c09eac73-9a3d-47a8-9330-005c8c157722.png)
 
 
+#  Agregación de datos
+
