@@ -85,6 +85,18 @@ GROUP BY clasificacion;
 ```
 ![image](https://user-images.githubusercontent.com/72534486/219990455-8f7bb0bb-7eac-4f75-93f8-2cd00c102785.png)
 
+# PRECIO  PROMEDIO POR RENTA 
+
+```
+SELECT AVG (precio_renta)
+FROM peliculas;
+
+
+```
+![image](https://user-images.githubusercontent.com/72534486/219990646-3585ec87-d1b1-4573-add2-7561fb4a7db2.png)
+
+
+
 
 
 
