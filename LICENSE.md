@@ -175,4 +175,37 @@ WHERE
 ![image](https://user-images.githubusercontent.com/72534486/220502632-c9fd8de1-27ce-479c-90fb-f01f76a4606d.png)
 
 
+#   Agregando objetos
+
+SELECT
+   MIN (
+      CAST (
+         info -> 'items' ->> 'cantidad' AS INTEGER
+      )
+   ),
+   MAX (
+      CAST (
+         info -> 'items' ->> 'cantidad' AS INTEGER
+      )
+   ),
+   SUM (
+      CAST (
+         info -> 'items' ->> 'cantidad' AS INTEGER
+      )
+   ),
+   AVG (
+      CAST (
+         info -> 'items' ->> 'cantidad' AS INTEGER
+      )
+   )
+FROM
+   ordenes;   
+   
+  ![image](https://user-images.githubusercontent.com/72534486/220503446-d7f41dd4-b956-4238-9d6e-30ee70d640ae.png)
+ 
+   
+   
+
+
+
 
