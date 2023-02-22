@@ -129,6 +129,13 @@ Una caracteristica muy importante de PostgreSQL es su capacidad de trabajar con 
 * El uso de objetos nos dará más flexibilidad en el trabajo.
 
 
+```
 
+CREATE TABLE  ordenes (
+    ID serial NOT NULL PRIMARY KEY,
+	info json NOT null
+
+)
+```
 
 
