@@ -123,10 +123,10 @@ ORDER BY duracion_renta_promedio DESC;
 
 Una caracteristica muy importante de PostgreSQL es su capacidad de trabajar con estructuras JSON.
 
-*JSON Texto plano - Es unicamente un string de texto.
-*JSON Binary - Es más rápido de procesar ya que se guarda como un archivo binario.
-*El uso de objetos nos dará más flexibilidad en el trabajo.
 
+* JSON Texto plano - Es unicamente un string de texto.
+* JSON Binary - Es más rápido de procesar ya que se guarda como un archivo binario.
+* El uso de objetos nos dará más flexibilidad en el trabajo.
 
 
 
