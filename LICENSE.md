@@ -177,6 +177,8 @@ WHERE
 
 #   Agregando objetos
 
+```
+
 SELECT
    MIN (
       CAST (
@@ -200,6 +202,14 @@ SELECT
    )
 FROM
    ordenes;   
+   
+   
+   
+   
+
+)
+```
+
    
   ![image](https://user-images.githubusercontent.com/72534486/220503446-d7f41dd4-b956-4238-9d6e-30ee70d640ae.png)
  
