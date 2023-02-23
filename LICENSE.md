@@ -241,4 +241,5 @@ LIMIT 10;
 
 ```
 
+![image](https://user-images.githubusercontent.com/72534486/221029338-7db266d9-80b7-4a75-9a1c-9cbac462dbe5.png)
 
