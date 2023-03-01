@@ -264,7 +264,6 @@ ORDER BY numero_rentas DESC;
 
 
 
-# Ordenando datos geográficos
 
 
 
