@@ -264,6 +264,8 @@ ORDER BY numero_rentas DESC;
 
 
 
-![image](https://user-images.githubusercontent.com/72534486/222029825-99674ec8-2596-4418-b68b-7db037c436fe.png)
+# Ordenando datos geográficos
+
+
 
 
