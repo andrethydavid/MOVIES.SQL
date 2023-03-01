@@ -243,3 +243,22 @@ LIMIT 10;
 
 ![image](https://user-images.githubusercontent.com/72534486/221029338-7db266d9-80b7-4a75-9a1c-9cbac462dbe5.png)
 
+# Usando rank y percent rank
+
+
+SELECT 
+	p.pelicula_id AS id,
+	p.titulo,
+	COUNT(*) AS numero_rentas,
+	DENSE_RANK() OVER (ORDER BY COUNT(*) DESC) AS lugar
+FROM rentas AS r
+JOIN inventarios AS i
+ON   r.inventario_id = i.inventario_id
+JOIN peliculas AS p
+ON   i.pelicula_id = p.pelicula_id
+GROUP BY p.pelicula_id
+ORDER BY numero_rentas DESC;
+
+
+```
+
